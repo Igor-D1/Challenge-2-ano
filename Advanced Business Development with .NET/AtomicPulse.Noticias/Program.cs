@@ -1,21 +1,14 @@
-﻿using AtomicPulse.Noticias.Exceptions;
-using AtomicPulse.Noticias.Models;
+﻿using AtomicPulse.Noticias.Repositories;
+using AtomicPulse.Noticias.Services;
+using AtomicPulse.Noticias.UI;
 
-try
-{
-    var boa = new Noticia(
-        "Brasil avança no submarino nuclear",
-        "https://exemplo.com/a",
-        "Agência Brasil",
-        new DateTime(2026, 10, 1),
-        null,
-        Sentimento.Positivo);
-    Console.WriteLine($"OK: {boa.Titulo}");
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+Console.InputEncoding = System.Text.Encoding.UTF8;
 
-    var ruim = new Noticia("", "link-invalido", "G1");
-    Console.WriteLine("Não deveria chegar aqui");
-}
-catch (NoticiaInvalidaException ex)
-{
-    Console.WriteLine($"Erro: {ex.Message}");
-}
+string caminhoArquivo = Path.Combine(AppContext.BaseDirectory, "Data", "noticias.json");
+
+INoticiaRepository repositorio = new NoticiaJsonRepository(caminhoArquivo);
+var servico = new NoticiaService(repositorio);
+var menu = new Menu(servico);
+
+menu.Executar();
