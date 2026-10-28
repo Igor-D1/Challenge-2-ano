@@ -1,0 +1,46 @@
+name: atomicpulse
+description: "AtomicPulse: Conexão Nuclear - Challenge FIAP 2026 / AMazul"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1" # <--- Adicione esta linha aqui!
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.jpeg
+    - assets/icons/icon_app.png
+    - assets/json/news.json
+    - assets/json/quiz_example.json
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon_app.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icons/icon_app.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icons/icon_app.png"
+    background_color: "#000000" 
+    theme_color: "#000000"  
+  windows:
+    generate: true
+    image_path: "assets/icons/icon_app.png"
+  macos:
+    generate: true
+    image_path: "assets/icons/icon_app.png"
