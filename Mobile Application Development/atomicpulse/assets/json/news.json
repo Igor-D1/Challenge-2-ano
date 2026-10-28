@@ -1,0 +1,29 @@
+[
+ {
+ "id": "1",
+ "title": "Avanco nas Obras do Reator Multiproposito Brasileiro (RMB)",
+ "summary": "O RMB garantira a autossuficiencia do Brasil na producao de medicina especializada.",
+ "category": "Saude e Medicina",
+ "date": "2026-10-15",
+ "url": "www.amazul.gov.br",
+ "isHighlight": true
+ },
+ {
+ "id": "2",
+ "title": "AMazul e Marinha Avancam no Projeto do Submarino SN-BR",
+ "summary": "Aperfeicoamento do prototipo de propulsao naval no Centro Tecnologico em Ipero-SP.",
+ "category": "Defesa e Tecnologia",
+ "date": "2026-10-18",
+ "url": "www.amazul.gov.br",
+ "isHighlight": false
+ },
+ {
+ "id": "3",
+ "title": "Energia Nuclear na Transicao Energetica Global",
+ "summary": "Estudo destaca a matriz limpa para abastecimento sustentavel de grandes metropoles.",
+ "category": "Meio Ambiente",
+ "date": "2026-10-20",
+ "url": "www.amazul.gov.br",
+ "isHighlight": false
+ }
+]
