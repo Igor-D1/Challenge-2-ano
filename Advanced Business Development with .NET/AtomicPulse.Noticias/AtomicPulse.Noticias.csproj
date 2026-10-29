@@ -11,4 +11,10 @@
     <Folder Include="Data\" />
   </ItemGroup>
 
+  <ItemGroup>
+	<None Update="Data\noticias.json">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</None>
+  </ItemGroup>
+
 </Project>
