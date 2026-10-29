@@ -1,0 +1,555 @@
+{
+ "quizTitle": "Quiz Avançado: AMazul, Mitos Nucleares e Marinha do Brasil",
+ "questions": [
+  {
+   "id": "q1",
+   "question": "Qual é a principal missão institucional da AMazul (Amazul - Tecnologias Defesa S.A.)?",
+   "options": [
+    "Realizar a importação exclusiva de armamentos pesados para o Exército Brasileiro",
+    "Desenvolver tecnologias e conhecimentos estratégicos nas áreas nuclear, cibernética e de segurança de defesa",
+    "Operar todas as usinas hidrelétricas da região Norte do país",
+    "Fiscalizar a exploração de petróleo na camada pré-sal"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q2",
+   "question": "A AMazul atua fortemente em qual dos grandes programas estratégicos da Marinha do Brasil?",
+   "options": [
+    "Programa Espacial Completo Brasileiro (PECB)",
+    "Programa de Construção de Rodovias Transamazônicas",
+    "Programa Nuclear da Marinha (PNM) e Programa de Desenvolvimento de Submarinos (Prosub)",
+    "Programa de Modernização da Frota de Caças F-39 Gripen"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q3",
+   "question": "Qual é um dos principais objetivos do Reator Multipropósito Brasileiro (RMB), projeto com participação da AMazul?",
+   "options": [
+    "Geração comercial em massa de energia elétrica para a Região Metropolitana de São Paulo",
+    "Propulsão direta de navios mercantes de grande porte",
+    "Testes de armamentos termonucleares de alta potência",
+    "Produção de radioisótopos para uso em medicina nuclear e pesquisa científica"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q4",
+   "question": "Em relação aos mitos nucleares, a energia nuclear gera resíduos altamente radioativos que ficam perigosos por milhares de anos. Como a ciência moderna lida com o lixo nuclear de alta atividade?",
+   "options": [
+    "Através do confinamento em depósitos geológicos profundos seguros e projetados para isolamento a longo prazo",
+    "Por meio do lançamento direto no espaço sideral usando foguetes reutilizáveis",
+    "Através do despejo controlado em fossas oceânicas abissais distantes da costa",
+    "Por meio de incineração em fornos industriais convencionais a céu aberto"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q5",
+   "question": "Muitas pessoas acreditam no mito de que usinas nucleares podem explodir como bombas atômicas. Por que isso é tecnicamente impossível?",
+   "options": [
+    "Porque as usinas possuem uma camada de gelo seco que impede qualquer tipo de reação química",
+    "Porque o combustível nuclear em usinas possui um nível de enriquecimento de urânio muito baixo para causar uma reação em cadeia descontrolada e explosiva",
+    "Porque o urânio utilizado nas usinas é líquido e evapora instantaneamente em caso de falha",
+    "Porque o reator é construído inteiramente de madeira tratada com retardantes de fogo"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q6",
+   "question": "Qual é a função do Laboratório de Geração de Energia Núcleo-Elétrica (Labgene), onde a AMazul presta apoio técnico?",
+   "options": [
+    "Desenvolver combustíveis fósseis alternativos para navios de patrulha",
+    "Testar satélites de reconhecimento meteorológico militar",
+    "Simular em terra, de forma segura e em escala real, a planta propulsora nuclear de um submarino",
+    "Treinar mergulhadores de combate para missões em águas profundas"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q7",
+   "question": "A Marinha do Brasil é a Força Armada responsável por garantir a segurança das águas jurisdicionais brasileiras, conhecidas geopoliticamente como:",
+   "options": [
+    "Mar Territorial Profundo",
+    "Faixa de Fronteira Marítima",
+    "Zona Econômica Sul-Americana",
+    "Amazônia Azul"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q8",
+   "question": "Um mito comum sobre radiação afirma que ela é um fenômeno exclusivamente artificial criado pelo homem. Qual é a realidade científica?",
+   "options": [
+    "A radiação natural (fundo radioativo) sempre existiu e está presente nas rochas, no solo, no espaço e nos próprios seres vivos",
+    "Toda radiação existente no universo foi gerada após a invenção das lâmpadas incandescentes",
+    "A radiação natural só existe em locais onde houve testes de armas nucleares no século XX",
+    "O ser humano é o único organismo capaz de emitir radiação gama de forma natural"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q9",
+   "question": "No contexto do Programa de Desenvolvimento de Submarinos (Prosub), qual submarino em construção pela Marinha com apoio da AMazul contará com propulsão nuclear?",
+   "options": [
+    "Submarino Classe Riachuelo (S-40)",
+    "Submarino Convencionalmente Armado com Propulsão Nuclear (S-BR / SN-BR Álvaro Alberto)",
+    "Submarino Tipo U-209 adaptado",
+    "Submarino de Resgate Profundo SRV-500"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q10",
+   "question": "Qual é o principal argumento científico que desmistifica a ideia de que viver perto de uma usina nuclear operando normalmente causa danos severos à saúde por radiação?",
+   "options": [
+    "Os reatores modernos possuem campos magnéticos que neutralizam qualquer partícula radioativa antes que ela saia do prédio",
+    "O calor gerado pela usina destrói instantaneamente qualquer substância radioativa no ar",
+    "A radiação emitida por uma usina nuclear em operação normal é inferior à dose recebida em um voo comercial de longa distância ou pela radiação natural do solo",
+    "As usinas nucleares utilizam filtros de carvão ativado que eliminam 200% de qualquer resíduo atômico"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q11",
+   "question": "Qual empresa estatal brasileira, criada em 2012, absorveu parte das atividades técnicas e de gestão do Centro Tecnológico da Marinha em São Paulo (CTMSP)?",
+   "options": [
+    "Nuclebrás Equipamentos Pesados (Nuclep)",
+    "Indústrias Nucleares do Brasil (INB)",
+    "Empresa Brasileira de Pesquisa Agropecuária (Embrapa)",
+    "AMazul (Amazul - Tecnologias Defesa S.A.)"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q12",
+   "question": "Sobre o ciclo do combustível nuclear, qual é a etapa realizada no Centro Tecnológico de Aramar (SP) que conta com suporte da AMazul?",
+   "options": [
+    "Enriquecimento de urânio por ultracentrifugação",
+    "Mineração a céu aberto de monazita",
+    "Extração artesanal de ouro e platina radioativa",
+    "Refino químico de petróleo extraído do fundo marinho"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q13",
+   "question": "Um mito frequente é o de que a energia nuclear contribui para o aquecimento global de forma similar aos combustíveis fósseis. Qual é a realidade ambiental?",
+   "options": [
+    "As usinas nucleares emitem mais dióxido de carbono do que as usinas a carvão mineral",
+    "A geração nuclear é uma fonte de energia de base com baixíssima emissão de gases de efeito estufa durante sua operação",
+    "O vapor de água liberado pelas torres de resfriamento é o principal causador do efeito estufa global",
+    "A fissão nuclear consome a camada de ozônio em um raio de cem quilômetros"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q14",
+   "question": "O termo 'Amazônia Azul' foi cunhado pela Marinha do Brasil para se referir a quê?",
+   "options": [
+    "A bacia hidrográfica do Rio Amazonas vista através de imagens de satélite de alta resolução",
+    "Uma reserva biológica protegida contra a pesca ilegal na foz do Rio Amazonas",
+    "A vasta área marítima sob jurisdição brasileira rica em recursos minerais, biológicos e energéticos",
+    "O conjunto de florestas submersas em reservatórios de usinas hidrelétricas"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q15",
+   "question": "Qual é a principal vantagem estratégica da propulsão nuclear em submarinos, desenvolvida com o auxílio da AMazul?",
+   "options": [
+    "Atingir velocidades supersônicas comparáveis a caças militares na superfície do mar",
+    "Permitir o transporte de tropas terrestres em operações anfíbias interestaduais",
+    "Eliminar totalmente a necessidade de tripulantes a bordo da embarcação",
+    "Permitir que o submarino navegue submerso por longos períodos sem a necessidade de vir à superfície para recarregar baterias ou captar oxigênio"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q16",
+   "question": "No que diz respeito à segurança alimentar e mitos nucleares, consumir alimentos irradiados (processados por radiação ionizante) faz mal à saúde?",
+   "options": [
+    "Não, o processo de irradiação elimina patógenos sem tornar o alimento radioativo ou prejudicial ao consumo humano",
+    "Sim, os alimentos irradiados acumulam resíduos radioativos letais nos tecidos celulares",
+    "Sim, a irradiação altera o DNA humano permanentemente através da ingestão de frutas e carnes",
+    "Não há estudos conclusivos, mas o governo proíbe totalmente a venda desses alimentos no Brasil"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q17",
+   "question": "Qual é a principal finalidade da Nuclep (Nuclebrás Equipamentos Pesados), empresa parceira estratégica nos projetos da Marinha e da AMazul?",
+   "options": [
+    "Produzir uniformes de gala e insígnias para os oficiais da Marinha",
+    "Fabricar componentes pesados e caldeiraria nuclear de alta complexidade para o setor energético e de defesa",
+    "Construir pontes e viadutos rodoviários nas capitais brasileiras",
+    "Realizar a perfuração de poços artesianos em áreas de seca no Nordeste"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q18",
+   "question": "Existe o mito de que animais e plantas não conseguem sobreviver em áreas que sofreram acidentes nucleares. O que se observa na prática em locais como Chernobyl?",
+   "options": [
+    "A região tornou-se um deserto estéril absoluto onde nenhuma forma de vida multicelular existe",
+    "Todos os animais sofreram mutações instantâneas visíveis e transformaram-se em criaturas gigantes",
+    "A fauna e a flora locais floresceram e se multiplicaram devido à ausência prolongada da presença humana e da caça",
+    "A vegetação foi substituída inteiramente por cactos e plantas carnívoras mutantes"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q19",
+   "question": "A Marinha do Brasil é composta por diferentes forças operativas e administrativas. Qual força é responsável pela defesa aérea e aeronaval embarcada?",
+   "options": [
+    "Fuzileiros Navais",
+    "Comando da Força de Submarinos",
+    "Comando de Operações Especiais do Exército",
+    "Força Aeronaval (Aviação Naval)"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q20",
+   "question": "Qual é a relação entre a AMazul e a transferência de tecnologia internacional no âmbito do programa de submarinos?",
+   "options": [
+    "A AMazul apoia a absorção, domínio e capacitação tecnológica nacional para garantir a autonomia soberana do Brasil",
+    "A AMazul atua repassando tecnologia brasileira de foguetes espaciais para países parceiros",
+    "A AMazul é responsável por revender tecnologia nuclear estrangeira no mercado civil latino-americano",
+    "A AMazul não possui qualquer envolvimento com acordos de transferência de tecnologia"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q21",
+   "question": "Um mito clássico da energia nuclear é que as torres de resfriamento das usinas emitem fumaça highly tóxica e radioativa. O que sai de fato dessas torres na maior parte do tempo?",
+   "options": [
+    "Gases carbônicos altamente concentrados gerados pela queima de urânio",
+    "Vapor de água limpo resultante do processo de resfriamento do sistema secundário",
+    "Cinzas radioativas provenientes da queima do combustível nuclear esgotado",
+    "Fumaça negra gerada por motores auxiliares a diesel"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q22",
+   "question": "No âmbito da Marinha do Brasil, qual é a tropa de elite anfíbia conhecida por sua pronta resposta e operações terrestres a partir do mar?",
+   "options": [
+    "Comando de Operações Táticas da Polícia Federal",
+    "Brigada de Infantaria Parachudista do Exército",
+    "Corpo de Fuzileiros Navais (CFN)",
+    "Esquadrão de Demonstração Aérea"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q23",
+   "question": "Qual é o papel da Comissão Nacional de Energia Nuclear (CNEN) em relação aos empreendimentos nucleares onde a AMazul atua?",
+   "options": [
+    "Executar operações de patrulhamento de fronteiras fluviais na região amazônica",
+    "Construir os cascos de aço dos submarinos da Marinha",
+    "Comercializar excedentes de energia elétrica gerada nas usinas de Angra",
+    "Regular, licenciar e fiscalizar as atividades nucleares no país garantindo a segurança radiológica"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q24",
+   "question": "Qual o principal equívoco (mito) sobre a quantidade de combustível necessária para operar uma usina nuclear comparada a usinas térmicas tradicionais?",
+   "options": [
+    "Achar que o volume de combustível nuclear necessário é enorme, quando na verdade uma quantidade minúscula de urânio gera imensas quantidades de energia",
+    "Achar que o urânio é renovável e cresce rapidamente em laboratório como plantas",
+    "Achar que uma usina nuclear consome mais carvão do que uma termoelétrica comum",
+    "Achar que o combustível nuclear cabe em um copo descartável para abastecer uma cidade inteira por mil anos"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q25",
+   "question": "Como a AMazul contribui para o desenvolvimento científico e tecnológico nacional além do setor nuclear estrito?",
+   "options": [
+    "Criando aplicativos comerciais de entrega de comida para o mercado civil",
+    "Capacitando engenheiros, técnicos e pesquisadores de alto nível em projetos de engenharia complexa e soberana",
+    "Administrando redes de telefonia celular e internet banda larga em zonas urbanas",
+    "Fabricando veículos elétricos de passeio para frotas governamentais"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q26",
+   "question": "Qual é a principal justificativa histórica e geopolítica para o Brasil dominar o ciclo do combustível nuclear e a tecnologia de submarinos?",
+   "options": [
+    "Atender a exigências de tratados militares internacionais para entrar em guerras de agressão",
+    "Produzir armamentos de destruição em massa para exportação comercial",
+    "Garantir a soberania tecnológica, a defesa de suas riquezas naturais e o desenvolvimento pacífico de aplicações nucleares",
+    "Substituir totalmente a matriz energética hidrelétrica do país por fissão pura"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q27",
+   "question": "Um mito sobre radiação é o de que objetos comuns que passaram por inspeção em aeroportos (raios-X) tornam-se radioativos. Qual é a verdade?",
+   "options": [
+    "Os objetos absorvem radiação permanente e devem ser descartados em lixeiras especiais",
+    "Apenas roupas de algodão tornam-se radioativas ao passar pelo pórtico de segurança",
+    "Os aparelhos de aeroporto induzem radioatividade alfa nos metais eletrônicos",
+    "Os objetos não retêm radiação e tornam-se seguros imediatamente após o desligamento do aparelho de raio-X"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q28",
+   "question": "Qual é a importância econômica da Amazônia Azul para o Brasil, defendida e protegida pela Marinha?",
+   "options": [
+    "Concentra a maior parte da extração de petróleo e gás offshore, além de conter imensas riquezas pesqueiras e minerais",
+    "Serve exclusivamente como rota turística para navios cruzeiros internacionais",
+    "É uma área de livre comércio onde não se aplicam leis fiscais brasileiras",
+    "Abriga as principais usinas de dessalinização de água potável do Nordeste"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q29",
+   "question": "No contexto de gestão de resíduos radioativos, qual é a diferença essencial entre rejeitos de baixa/média atividade e rejeitos de alta atividade?",
+   "options": [
+    "Rejeitos de alta atividade podem ser jogados no lixo doméstico comum após secagem ao sol",
+    "Rejeitos de baixa/média atividade possuem menor nível de radioatividade e menor vida útil (ex: luvas, ferramentas), enquanto os de alta atividade exigem isolamento profundo e rigoroso",
+    "Rejeitos de baixa atividade emitem radiação gama letal instantânea ao toque",
+    "Não há diferença técnica, ambos são tratados exatamente da mesma forma química"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q30",
+   "question": "Qual é o foco da atuação da AMazul no projeto da Usina Nuclear Angra 3?",
+   "options": [
+    "Fornecer mão de obra exclusiva para a segurança armada do perímetro externo",
+    "Realizar a demolição estrutural das fundações antigas da usina",
+    "Prestar apoio técnico, engenharia e gestão para a conclusão e operação segura da obra",
+    "Importar turbinas a gás natural para substituir o reator nuclear"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q31",
+   "question": "Qual é o principal mito associado à energia solar e eólica versus energia nuclear quando se fala em estabilidade da rede elétrica?",
+   "options": [
+    "O mito de que a energia nuclear é intermitente e só funciona quando há incidência solar",
+    "O mito de que a energia eólica gera radiação ionizante perigosa para as aves",
+    "O mito de que turbinas eólicas produzem mais lixo radioativo que reatores atômicos",
+    "O mito de que fontes intermitentes conseguem suprir a carga de base industrial sem qualquer fonte firme como a nuclear ou hidrelétrica"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q32",
+   "question": "Como a Marinha do Brasil contribui para a pesquisa científica em ambientes extremos, como a Antártica?",
+   "options": [
+    "Por meio da operação do Navio Polar Maximiano da Rocha e da Estação Antártica Comandante Ferraz (EACF)",
+    "Através do envio de submarinos nucleares para quebrar placas de gelo no Polo Sul",
+    "Mantendo patrulhas aéreas com bombardeiros estratégicos baseados na Patagônia",
+    "Instalando usinas nucleares flutuantes na costa do continente antártico"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q33",
+   "question": "Qual é o grande desafio tecnológico superado pelo Brasil no enriquecimento de urânio em Aramar que demonstra a competência apoiada pela AMazul?",
+   "options": [
+    "Mineração subterrânea de diamantes em zonas de conflito internacional",
+    "Desenvolvimento de ultracentrífugas nacionais de alta eficiência com tecnologia própria",
+    "Criação de pilhas atômicas portáteis para uso em telefones celulares",
+    "Fusão a frio utilizando água da torneira e eletrodos de cobre"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q34",
+   "question": "Existe o mito de que o lixo nuclear líquido pode vazar facilmente para os lençóis freáticos e destruir cidades inteiras da noite para o dia. Como os engenheiros evitam esse risco?",
+   "options": [
+    "O lixo líquido é diluído em piscinas públicas para reduzir a zero a sua temperatura",
+    "Os resíduos são armazenados em tanques de plástico comum enterrados no quintal das usinas",
+    "Os resíduos líquidos de alta atividade são vitrificados (incorporados a uma matriz de vidro especial) e encapsulados em cilindros de aço inox",
+    "O lixo nuclear líquido é evaporado na atmosfera através de chaminés abertas"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q35",
+   "question": "Qual é a importância dos Fuzileiros Navais no contexto da Estratégia Nacional de Defesa do Brasil?",
+   "options": [
+    "Realizar o policiamento ostensivo rodoviário nas capitais do Sudeste",
+    "Operar o sistema de satélites geoestacionários civis de comunicações",
+    "Comandar a frota mercante nacional de grãos e minérios",
+    "Garantir a projeção de poder a partir do mar e a segurança de instalações navais estratégicas"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q36",
+   "question": "O que desmistifica a ideia de que a energia nuclear é a fonte que mais causa mortes na história da geração de eletricidade?",
+   "options": [
+    "Dados estatísticos mostram que a energia nuclear possui taxa de mortalidade por terawatt-hora inferior ou comparável a fontes renováveis, ficando muito abaixo do carvão e petróleo (devido à poluição do ar)",
+    "As usinas nucleares nunca registraram nenhum tipo de incidente ou morte em mais de um século de história",
+    "Governos internacionais ocultam deliberadamente milhões de mortes anuais causadas por radiação de fundo",
+    "O calor gerado pelas usinas protege as populações locais contra doenças respiratórias crônicas"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q37",
+   "question": "Qual o papel desempenhado pela AMazul na capacitação e retenção de competências técnicas em áreas sensíveis para o Estado brasileiro?",
+   "options": [
+    "Realizar concursos públicos anuais para o recrutamento obrigatório de civis para o serviço militar",
+    "Contratar e manter profissionais altamente especializados (engenheiros, físicos, técnicos) para assegurar a continuidade dos programas nucleares e de defesa",
+    "Promover intercâmbios culturais de dança e culinária com marinheiros estrangeiros",
+    "Atuar como agência de turismo ecológico nas bases navais do litoral brasileiro"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q38",
+   "question": "Qual é a verdade por trás do mito de que telefones celulares e torres 5G emitem radiação perigosa do tipo ionizante igual à de uma bomba atômica?",
+   "options": [
+    "A radiação de celulares é milhões de vezes mais potente que os raios-X médicos",
+    "As ondas 5G utilizam partículas radioativas de césio-137 em suas antenas de transmissão",
+    "Celulares e 5G emitem radiação não-ionizante, que possui energia insuficiente para quebrar ligações químicas ou alterar o DNA humano",
+    "Não há diferença física entre radiação eletromagnética de rádio frequência e radiação gama"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q39",
+   "question": "O que caracteriza um navio aeródromo (porta-aviões) na estrutura da Marinha do Brasil e sua relevância estratégica?",
+   "options": [
+    "Servir como base exclusiva para o lançamento de satélites meteorológicos de baixa órbita",
+    "Atuar como navio hospital de grande porte para atendimento odontológico fluvial",
+    "Transportar cargas pesadas de soja e minério de ferro para a Ásia",
+    "Permitir a operação de aeronaves em alto-mar, projetando poder militar a grandes distâncias da costa"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q40",
+   "question": "Qual é o principal desafio associado à desativação (descomissionamento) de uma usina nuclear antiga, processo onde a expertise da AMazul também se aplica?",
+   "options": [
+    "O planejamento rigoroso, o manuseio seguro e o desmantelamento de estruturas radioativas ao longo de décadas",
+    "A demolição rápida com explosivos convencionais no mesmo dia em que o reator é desligado",
+    "O abandono total do local sem qualquer tratamento de limpeza ambiental",
+    "A conversão imediata do reator em um parque de diversões infantil aberto ao público"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q41",
+   "question": "Qual é a resposta científica para o mito de que ingerir suplementos de iodo comum protege o corpo humano contra qualquer tipo de radiação?",
+   "options": [
+    "O iodo comum neutraliza partículas alfa e beta ao entrar em contato com a corrente sanguínea",
+    "O iodeto de potássio só protege a tireoide contra a absorção de iodo radioativo específico em acidentes nucleares, não oferecendo proteção contra outros tipos de radiação",
+    "Tomar iodo impede que o corpo seja atingido por raios gama provenientes do sol",
+    "O consumo de iodo transforma qualquer elemento químico radioativo em chumbo inofensivo"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q42",
+   "question": "Qual é a importância da Base Naval de Aratu e dos arsenais de marinha para a operacionalidade da força naval brasileira?",
+   "options": [
+    "Servir como centro exclusivo de lançamento de mísseis balísticos intercontinentais",
+    "Treinar astronautas civis para missões na Estação Espacial Internacional",
+    "Prestar serviços de manutenção, reparo e modernização de navios e submarinos da frota",
+    "Produzir combustível fóssil refinado para abastecer a frota de tanques do Exército"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q43",
+   "question": "Como a tecnologia nuclear desenvolvida com apoio da AMazul impacta positivamente a medicina além do futuro RMB?",
+   "options": [
+    "Através da criação de curativos cirúrgicos feitos de urânio empobrecido",
+    "Através do desenvolvimento de vacinas genéticas contra gripe baseadas em radiação gama pura",
+    "Através da esterificação de remédios caseiros com radiação ultravioleta de alta potência",
+    "Através da produção nacional de radiofármacos essenciais para o diagnóstico e tratamento precoce de cânceres e doenças cardíacas"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q44",
+   "question": "Um mito comum afirma que os rejeitos nucleares sólidos podem ser facilmente dissolvidos em ácidos fortes e jogados em rios. Qual é a realidade química?",
+   "options": [
+    "Os materiais radioativos mantêm suas propriedades de emissão independentemente de reações químicas ácidas, tornando tal procedimento inútil e altamente perigoso",
+    "Ácidos fortes destroem instantaneamente os núcleos atômicos dos elementos pesados",
+    "O lixo radioativo dissolve-se em água sanitária comum em poucos minutos",
+    "Substâncias radioativas evaporam ao entrar em contato com vinagre e limão"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q45",
+   "question": "Qual é a função primordial do Corpo de Engenheiros da Marinha e sua interação com órgãos como a AMazul?",
+   "options": [
+    "Comandar operações de desmatamento controlado na Bacia Amazônica",
+    "Conceber, projetar, construir e manter sistemas navais complexos, infraestruturas portuárias e projetos tecnológicos avançados",
+    "Fiscalizar empresas privadas de tecnologia da informação na internet",
+    "Produzir cartões de crédito e documentos de identidade para militares"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q46",
+   "question": "Qual é o mito mais persistente sobre a cor dos resíduos radioativos em recipientes transparentes na cultura pop?",
+   "options": [
+    "O mito de que o lixo radioativo é totalmente invisível a qualquer microscópio eletrônico",
+    "O mito de que resíduos atômicos mudam de cor conforme a temperatura ambiente",
+    "O mito de que o lixo radioativo brilha intensamente com uma cor verde fluorescente mágica no escuro",
+    "O mito de que o urânio puro é de cor azul brilhante como safira"
+   ],
+   "correctIndex": 2
+  },
+  {
+   "id": "q47",
+   "question": "Em que consiste o Programa Nuclear da Marinha (PNM) do qual a AMazul é braço fundamental de execução e suporte?",
+   "options": [
+    "O desenvolvimento secreto de ogivas nucleares intercontinentais para dissuasão global",
+    "A construção de centenas de pequenas usinas nucleares civis em municípios do interior",
+    "A substituição de todos os motores a combustão interna civis por micro-reatores atômicos",
+    "O domínio completo do ciclo do combustível nuclear e a construção de um reator nuclear voltado à propulsão naval"
+   ],
+   "correctIndex": 3
+  },
+  {
+   "id": "q48",
+   "question": "Qual é a explicação científica que desmistifica o medo de voar de avião devido à radiação cósmica em altitudes de cruzeiro?",
+   "options": [
+    "Embora a radiação cósmica seja maior em grandes altitudes, a dose recebida em voos comerciais comuns é extremamente baixa e incapaz de causar danos biológicos agudos",
+    "As janelas dos aviões comerciais possuem placas de chumbo grosso que bloqueiam 100% da radiação cósmica",
+    "Os pilotos utilizam roupas espaciais pressurizadas para evitar a queima por raios gama espaciais",
+    "A atmosfera terrestre é um vácuo absoluto que impede a entrada de qualquer radiação estelar"
+   ],
+   "correctIndex": 0
+  },
+  {
+   "id": "q49",
+   "question": "Como a AMazul apoia a soberania nacional no setor nuclear sob a perspectiva da não-proliferação de armas nucleares?",
+   "options": [
+    "Exportando urânio altamente enriquecido para potências militares globais sem controle",
+    "Garantindo a transparência pacífica, o controle tecnológico rigoroso e o cumprimento de salvaguardas internacionais com foco estritamente em fins civis e de defesa naval autorizada",
+    "Fabricando bombas atômicas secretas em bases subterrâneas no interior do país",
+    "Desativando totalmente qualquer pesquisa com urânio em território nacional"
+   ],
+   "correctIndex": 1
+  },
+  {
+   "id": "q50",
+   "question": "Qual é a relação geral entre a Marinha do Brasil, a AMazul e a alta tecnologia industrial no país?",
+   "options": [
+    "Funcionam exclusivamente como importadores de equipamentos militares obsoletos estrangeiros",
+    "Concentram suas atividades na fabricação de têxteis e calçados para exportação",
+    "Atuam como indutores da base industrial de defesa, estimulando a cadeia produtiva nacional de alta complexidade tecnológica",
+    "Atuam de forma isolada sem qualquer vínculo com empresas civis ou universidades"
+   ],
+   "correctIndex": 2
+  }
+ ]
+}
