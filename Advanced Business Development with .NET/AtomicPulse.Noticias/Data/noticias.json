@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "Titulo": "Brasil avança na construção do submarino de propulsão nuclear",
+    "Link": "https://exemplo.com/noticia/submarino-nuclear",
+    "Fonte": "Agência Brasil",
+    "DataPublicacao": "2026-10-01T00:00:00",
+    "Resumo": "Programa Nuclear da Marinha registra avanço na construção do SN Álvaro Alberto.",
+    "Sentimento": "Positivo"
+  },
+  {
+    "Id": 2,
+    "Titulo": "Usina nuclear brasileira bate recorde de geração de energia",
+    "Link": "https://exemplo.com/noticia/usina-recorde",
+    "Fonte": "G1",
+    "DataPublicacao": "2026-10-02T00:00:00",
+    "Resumo": "Angra registra o maior volume de geração elétrica da sua história.",
+    "Sentimento": "Positivo"
+  },
+  {
+    "Id": 3,
+    "Titulo": "Pesquisadores desenvolvem novo radiofármaco para tratamento de câncer",
+    "Link": "https://exemplo.com/noticia/radiofarmaco-cancer",
+    "Fonte": "Folha de S.Paulo",
+    "DataPublicacao": "2026-10-03T00:00:00",
+    "Resumo": "Estudo brasileiro testa radiofármaco que promete tratamento mais preciso.",
+    "Sentimento": "Positivo"
+  },
+  {
+    "Id": 4,
+    "Titulo": "Debate sobre energia nuclear divide opiniões no Congresso",
+    "Link": "https://exemplo.com/noticia/debate-nuclear",
+    "Fonte": "Estadão",
+    "DataPublicacao": "2026-10-04T00:00:00",
+    "Resumo": "Parlamentares discutem expansão da matriz nuclear brasileira.",
+    "Sentimento": "Neutro"
+  },
+  {
+    "Id": 5,
+    "Titulo": "Vazamento em usina nuclear europeia acende alerta de segurança",
+    "Link": "https://exemplo.com/noticia/vazamento-usina",
+    "Fonte": "Reuters",
+    "DataPublicacao": "2026-10-05T00:00:00",
+    "Resumo": "Incidente em usina europeia reacende o debate sobre segurança nuclear.",
+    "Sentimento": "Negativo"
+  }
+]
