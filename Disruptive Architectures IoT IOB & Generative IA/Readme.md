@@ -67,7 +67,7 @@ alimentam uma decisão**. O smartphone atende aos três critérios:
 | Critério de IoT | Como o AtomicPulse atende |
 |---|---|
 | **Dispositivo com sensoriamento** | O app captura eventos de uso: partida iniciada, resposta dada, nível concluído, notícia aberta, tempo de sessão |
-| **Conectividade em rede** | O dispositivo envia esses eventos à API por MQTT sobre a rede móvel ou Wi-Fi |
+| **Conectividade em rede** | O dispositivo envia esses eventos à API pela rede móvel ou Wi-Fi |
 | **Dado que vira decisão** | A AMazul recebe métricas de engajamento real e usa isso para orientar a comunicação |
 
 ### Necessidade atendida
@@ -93,9 +93,8 @@ Sem essa camada, a AMazul investe em comunicação sem saber o que funciona.
 
 | Componente | Função | Onde fica |
 |---|---|---|
-| **Aplicativo AtomicPulse (Flutter)** | Atua como sensor: captura eventos de uso e os publica na rede | Dispositivo do usuário |
+| **Aplicativo AtomicPulse (Flutter)** | Atua como sensor: captura eventos de uso e os envia pela rede | Dispositivo do usuário |
 | **SDK de telemetria** | Camada dentro do app que empacota, enfileira e envia os eventos com tolerância a falha de rede | Dentro do app |
-| **Broker MQTT** | Recebe os eventos publicados pelos dispositivos e os distribui para a API | Nuvem |
 | **API de telemetria** | Valida, normaliza e persiste os eventos recebidos | Nuvem / servidor da aplicação |
 | **Banco de dados** | Armazena o histórico de eventos e as métricas agregadas | Nuvem (Oracle) |
 | **Painel de engajamento** | Consolida os dados em indicadores para a AMazul | Interface web / dentro do app |
@@ -107,21 +106,13 @@ Sem essa camada, a AMazul investe em comunicação sem saber o que funciona.
 
 ## Comunicação e redes
 
-A arquitetura usa dois protocolos, cada um na camada onde faz sentido:
+O app envia os eventos para a API via **HTTPS/REST** — a mesma API RESTful construída
+nas disciplinas de Java Advanced e .NET. A escolha de REST se justifica por dois motivos:
 
-1. **App → Broker (MQTT)** — o app publica eventos em tópicos organizados por tipo
-   (`quiz/partida`, `quiz/resposta`, `noticia/abertura`). O MQTT foi escolhido porque
-   mantém conexão persistente, tem payload mínimo e sobrevive a oscilações de rede
-   móvel — cenário comum no uso real de um app.
-2. **Broker → API (MQTT)** — a API assina os tópicos de interesse e processa os eventos
-   de forma assíncrona, sem bloquear a experiência do usuário.
-3. **API → Painel (HTTPS/REST)** — o painel de engajamento consulta os dados agregados
-   via HTTPS, com autenticação.
-
-**Por que MQTT e não apenas HTTP:** o app gera muitos eventos pequenos e frequentes.
-HTTP exigiria uma requisição completa com cabeçalho a cada evento, o que consome bateria
-e banda. O MQTT mantém uma conexão aberta e envia apenas o payload — mais eficiente em
-dispositivo móvel, que é justamente o dispositivo desta camada.
+1. **Escala compatível.** O volume de dispositivos é o de usuários do app, não de
+   milhares de sensores de baixo consumo. REST atende com folga.
+2. **Stack já existente.** A API REST já está no projeto. Não adiciona infraestrutura
+   nova nem aumenta a complexidade operacional.
 
 **Tolerância a falha:** o SDK mantém uma fila local. Se o dispositivo estiver sem rede,
 os eventos ficam armazenados e são enviados quando a conexão retorna — garantindo que
@@ -171,24 +162,13 @@ em indicador de engajamento para a AMazul.
 
 ## Materiais do projeto
 
-O documento completo da solução (pitch de Compliance & QA), com problema, público-alvo,
-funcionalidades, diferenciais e comparativo de mercado, está disponível em:
-
-📄 **[AtomicPulse — Entrega Final QA (PDF)](../docs/AtomicPulse_EntregaFinal_QA.pdf)**
-
-> Para que o link funcione, coloque o arquivo PDF na pasta `docs/` na raiz do repositório,
-> mantendo o nome `AtomicPulse_EntregaFinal_QA.pdf`.
-
-### Outros materiais
-
-| Material | Onde encontrar |
+| Material | Arquivo |
 |---|---|
+| Pitch de Compliance & QA (PDF) | [AtomicPulse_EntregaFinal_QA.pdf](./AtomicPulse_EntregaFinal_QA.pdf) |
+| Documento-mestre do projeto (Word) | [Contexto_Projeto_Challenge_AMazul.docx](./Contexto_Projeto_Challenge_AMazul.docx) |
 | Vídeo de apresentação (YouTube, não listado) | *(inserir link)* |
-| Fluxograma em imagem | `./fluxograma-iot.png` |
-| Documento-mestre do projeto | `../docs/Contexto_Projeto_Challenge_AMazul.docx` |
 
 ---
-
 
 ## Escopo desta entrega
 
