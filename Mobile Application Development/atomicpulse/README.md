@@ -274,3 +274,7 @@ Cada questão precisa conter o enunciado e quatro alternativas.
 -   `[Alan Christopher] — RM: [567033]`
 -   `[Guilherme Sena] — RM: [568101]`
 -   `[Igor Dantas] — RM: [568337]`
+
+### Video Apresentação
+
+- https://youtu.be/956Z-CZFKuA
