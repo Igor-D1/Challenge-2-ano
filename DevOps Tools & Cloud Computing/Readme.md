@@ -13,9 +13,7 @@ Challenge FIAP 2026 · 2º ano ADS (2TDSPA) · Empresa parceira: AMAZUL / CTMSP 
 ---
 
 ## Sobre a solução
-O **AtomicPulse** é um app mobile (Flutter) educativo sobre tecnologia nuclear, com quiz gamificado (3 níveis, ranking, salas por QR code) e um radar de notícias. A API REST em Java/Spring Boot (entidade Pergunta, CRUD completo, Swagger) é o motor do quiz — e é a aplicação usada nesta entrega.
-
-Nesta Sprint 1, disponibilizamos uma Prova de Conceito (PoC) da API conteinerizada e implantada em nuvem.
+O **AtomicPulse** é um app mobile (Flutter) educativo sobre tecnologia nuclear, com quiz gamificado (3 níveis, ranking, salas por QR code) e um radar de notícias. Nesta Sprint 1, como prova de conceito de DevOps e Cloud, utilizamos uma API simples em Python/Flask, conteinerizada com Docker e executada em uma VM no Azure. A API Java do projeto será integrada nas próximas sprints.
 
 ---
 
