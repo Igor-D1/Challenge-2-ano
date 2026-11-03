@@ -1,54 +1,106 @@
-# ☁️ DevOps Tools & Cloud Computing — AtomicPulse
+# AtomicPulse — Challenge 2026 | DevOps Tools & Cloud Computing (Sprint 1)
 
-##  Integrantes do Grupo
-* **Alan Christopher Miranda** — RM: 567033
-* **Guilherme Santos Sena** — RM: 568101
-* **Igor Dantas da Silva** — RM: 568337
-* **Turma:** 2TDSPA
-* **Empresa Parceira:** AMazul / CTMSP (Challenge 2026)
+Challenge FIAP 2026 · 2º ano ADS (2TDSPA) · Empresa parceira: AMAZUL / CTMSP (Marinha do Brasil)
 
----
+## Integrantes
 
-##  Descrição Resumida da Solução
-O **AtomicPulse** é uma solução digital interativa desenvolvida em parceria com a AMazul para aproximar a sociedade da tecnologia nuclear brasileira de forma simples, acessível e envolvente. A plataforma combina gamificação e monitoramento de informações para desmistificar conceitos sobre energia nuclear, medicina e aplicação civil e militar.
-
-Nesta **Sprint 1** de DevOps Tools & Cloud Computing, disponibilizamos uma Prova de Conceito (PoC) conteinerizada e implantada em nuvem para demonstrar a alta disponibilidade, escalabilidade e padronização da infraestrutura da API da solução.
+| Nome | RM | Turma |
+| :--- | :--- | :--- |
+| **Alan Christopher Miranda** | 567033 | 2TDSPA |
+| **Guilherme Santos Sena** | 568101 | 2TDSPA |
+| **Igor Dantas da Silva** | 568337 | 2TDSPA |
 
 ---
 
-##  Arquitetura da Solução
-A arquitetura simplificada em nuvem ilustra a publicação do serviço utilizando container Docker hospedado em uma Virtual Machine Ubuntu no Microsoft Azure com porta de acesso 8080 liberada via Network Security Group (NSG):
+## Sobre a solução
+O **AtomicPulse** é um app mobile (Flutter) educativo sobre tecnologia nuclear, com quiz gamificado (3 níveis, ranking, salas por QR code) e um radar de notícias. A API REST em Java/Spring Boot (entidade Pergunta, CRUD completo, Swagger) é o motor do quiz — e é a aplicação usada nesta entrega.
+
+Nesta Sprint 1, disponibilizamos uma Prova de Conceito (PoC) da API conteinerizada e implantada em nuvem.
+
+---
+
+## Arquitetura
 
 ![Arquitetura da Solução](docs/arquitetura.drawio.png)
 
-### Fluxo da Arquitetura:
-1. **Usuário / App Mobile (Flutter):** Envia requisições HTTP REST para a aplicação.
-2. **IP Público (Public IP Address):** Ponto de entrada de rede gerado dinamicamente na Azure.
-3. **NSG (Network Security Group):** Regra de firewall que libera o tráfego de entrada na porta `8080`.
-4. **Azure Virtual Machine (Ubuntu Linux):** Instância de computação criada via Azure CLI no grupo de recursos `rg-atomicpulse-sprint1`.
-5. **Docker Engine:** Ambientes isolados de container dentro da VM.
-6. **Container (`atomicpulse-api`):** API REST PoC rodando em Python Flask/Gunicorn na porta `8080`.
-7. **Banco de Dados (Persistência Target):** Conexão lógica com o banco relacional para futura integração dos dados do aplicativo.
+---
+
+## Estrutura do repositório
+
+* `Dockerfile`        -> build da API em Python Flask / Gunicorn.
+* `script.sh`         -> script Azure CLI para criação do RG, VM, liberação de porta e visualização do IP Público.
+* `cleanup.sh`        -> script para deleção completa do Resource Group.
+* `docs/`             -> contém a imagem do diagrama de arquitetura.
+* `app.py` / `requirements.txt` -> arquivos de código-fonte da aplicação.
 
 ---
 
-##  Pergunta Obrigatória
+## Comandos Azure CLI utilizados
 
-> **Como Docker e Cloud Computing podem ser utilizados na solução proposta pelo grupo?**
->
-> **Resposta:** A adoção da **Cloud Computing (Microsoft Azure)** permite que a plataforma **AtomicPulse** permaneça acessível publicamente com alta disponibilidade, segurança gerenciada e escalabilidade sob demanda, eliminando a dependência de infraestruturas locais físicas. O **Docker** isola e empacota os microsserviços da aplicação em containers leves e padronizados, garantindo que o ambiente de execução na nuvem seja perfeitamente idêntico ao ambiente de desenvolvimento. Essa combinação assegura um ciclo de implantação rápido, seguro e reproduzível para o ecossistema do projeto em eventos de divulgação da AMazul.
+```bash
+az login
+
+az group create --name rg-atomicpulse-sprint1 --location southafricanorth
+
+az vm create \
+  --resource-group rg-atomicpulse-sprint1 \
+  --name vm-atomicpulse-api \
+  --image Canonical:UbuntuServer:18_04-lts-gen2:18.04.202401162 \
+  --size Standard_B2ls_v2 \
+  --admin-username azureuser \
+  --generate-ssh-keys \
+  --public-ip-sku Standard
+
+az vm open-port --port 8080 --resource-group rg-atomicpulse-sprint1 --name vm-atomicpulse-api
+
+az vm list-ip-addresses --resource-group rg-atomicpulse-sprint1 --name vm-atomicpulse-api --output table
+
+az group delete --name rg-atomicpulse-sprint1 --yes --no-wait
+```
 
 ---
 
-##  Instruções de Execução
+## Instruções básicas para execução
 
-### Pré-requisitos
-* Azure CLI instalado e autenticado (`az login`)
-* Git
-* Acesso SSH
+**Pré-requisitos:** Azure CLI instalado, conta Azure autenticada (`az login`), Git e acesso SSH.
 
-### 1. Provisionar Infraestrutura na Azure
-No seu terminal local ou no Azure Cloud Shell, execute o script de provisionamento:
+1. **Fazer login e provisionar a infraestrutura na nuvem:**
 ```bash
 az login
 bash script.sh
+```
+
+2. **Acessar a VM por SSH e executar a aplicação no Docker:**
+*(Utilize o IP Público exibido no final do passo anterior)*
+```bash
+ssh azureuser@<IP-PUBLICO-DA-VM>
+
+sudo apt-get update && sudo apt-get install -y docker.io
+sudo systemctl start docker
+
+git clone https://github.com/Igor-D1/Challenge-2-ano.git
+cd "Challenge-2-ano/DevOps Tools & Cloud Computing"
+
+sudo docker build -t atomicpulse-api .
+sudo docker run -d -p 8080:8080 --name atomicpulse-app atomicpulse-api
+```
+
+3. **Acessar e validar a aplicação pelo navegador:**
+```text
+http://<IP-PUBLICO-DA-VM>:8080
+```
+
+4. **Ao terminar, apagar os recursos:**
+```bash
+bash cleanup.sh
+```
+
+---
+
+## Pergunta Obrigatória
+
+**Como Docker e Cloud Computing podem ser utilizados na solução proposta pelo grupo?**
+
+O Docker empacota a API do AtomicPulse (código, dependências e configuração) em uma imagem única, que roda de forma idêntica no notebook de qualquer integrante, na VM do Azure ou em qualquer outro ambiente — acabando com o "na minha máquina funciona". Isso facilita a entrega contínua e a atualização das perguntas e funcionalidades.
+
+A Cloud Computing (Microsoft Azure) permite disponibilizar essa API na internet para o app mobile e para o público das palestras da AMAZUL, que entra nas salas por QR code. Como a demanda é irregular (picos durante palestras e campanhas), a nuvem permite provisionar recursos sob demanda via Azure CLI, escalar quando necessário e remover tudo ao final, pagando apenas pelo que for usado. Nas próximas sprints a mesma imagem poderá receber banco de dados gerenciado e o radar de notícias (.NET).
