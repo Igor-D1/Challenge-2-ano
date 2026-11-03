@@ -13,7 +13,8 @@ echo "=== 2. Criando a Azure Virtual Machine (Ubuntu) ==="
 az vm create \
   --resource-group $RESOURCE_GROUP \
   --name $VM_NAME \
-  --image Ubuntu2204 \
+  --image Canonical:UbuntuServer:18_04-lts-gen2:18.04.202401162 \
+  --size Standard_B2ls_v2 \
   --admin-username $ADMIN_USER \
   --generate-ssh-keys \
   --public-ip-sku Standard
