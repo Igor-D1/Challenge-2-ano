@@ -1,7 +1,7 @@
 # AtomicPulse Quiz API — Java Advanced (Sprint 1)
 
 > **Challenge FIAP 2026** · Parceria Tecnológica com a **AMazul** (Amazônia Azul Tecnologias de Defesa S.A.)  
-> **Curso**: Análise e Desenvolvimento de Sistemas (2º Ano — Turma 2TDSPA)  
+> **Curso**: Análise e Desenvolvimento de Sistemas (2º Ano — Turma 2TDS)  
 > **Tecnologias**: Java 21 | Spring Boot 3.2.5 | Oracle Database JDBC (`ojdbc11`) | Spring Data JPA | Springdoc OpenAPI (Swagger UI)
 
 ---
@@ -145,6 +145,17 @@ A entidade `Pergunta` é mapeada no Oracle Database conforme a estrutura abaixo:
 
 ---
 
-## 8. Licença & Créditos
+## 8. Integrantes
+
+## Integrantes
+
+| Nome | RM |
+|---|---|
+| Alan Christopher Gonzaga Miranda | RM567033 |
+| Guilherme Santos Sena | RM568101 |
+| Igor Dantas da Silva | RM568337 |
+
+
+## 9. Licença & Créditos
 
 Desenvolvido pelo time **AtomicPulse** para o **Challenge FIAP 2026** em parceria com a **AMazul**.
