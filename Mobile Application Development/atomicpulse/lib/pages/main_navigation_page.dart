@@ -34,7 +34,7 @@ class MainNavigationPageState extends State<MainNavigationPage> {
         onTap: (index) => setState(() => currentIndex = index),
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.info), label: 'Sobre'),
+          BottomNavigationBarItem(icon: Icon(Icons.menu_book), label: 'Sobre AMazul'),
           BottomNavigationBarItem(icon: Icon(Icons.psychology), label: 'Quiz'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil'),
           BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Configurações'),
