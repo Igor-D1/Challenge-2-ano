@@ -147,8 +147,6 @@ A entidade `Pergunta` é mapeada no Oracle Database conforme a estrutura abaixo:
 
 ## 8. Integrantes
 
-## Integrantes
-
 | Nome | RM |
 |---|---|
 | Alan Christopher Gonzaga Miranda | RM567033 |
