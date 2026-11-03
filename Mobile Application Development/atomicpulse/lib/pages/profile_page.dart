@@ -188,7 +188,6 @@ class ProfilePage extends StatelessWidget {
     );
   }
 
-  // Widget auxiliar para as medalhas (conquistas)
   Widget buildBadgeCard(String title, String subtitle, IconData icon, bool unlocked) {
     return Container(
       width: 100,
@@ -229,7 +228,6 @@ class ProfilePage extends StatelessWidget {
     );
   }
 
-  // Widget auxiliar para linhas de desempenho detalhado
   Widget buildDetailRow(IconData icon, String label, String value) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
