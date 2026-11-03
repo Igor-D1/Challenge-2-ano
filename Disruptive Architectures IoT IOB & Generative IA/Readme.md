@@ -165,8 +165,9 @@ em indicador de engajamento para a AMazul.
 | Material | Arquivo |
 |---|---|
 | Pitch de Compliance & QA (PDF) | [AtomicPulse_EntregaFinal_QA.pdf](./AtomicPulse_EntregaFinal_QA.pdf) |
-| Documento-mestre do projeto (Word) | [Contexto_Projeto_Challenge_AMazul.docx](./Contexto_Projeto_Challenge_AMazul.docx) |
+| Documento-mestre do projeto (docx) | [Contexto_Projeto_Challenge_AMazul.docx](./Contexto_Projeto_Challenge_AMazul.docx) |
 | Vídeo de apresentação (YouTube, não listado) | https://youtu.be/PpxUnaMKYWE |
+| Fluxograma |        |
 
 ---
 
