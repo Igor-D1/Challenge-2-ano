@@ -138,10 +138,11 @@ O Radar mede **o que o público fala**; a telemetria mede **o que o público faz
 
 ## 9. Integrantes
 
-- **Alan Christopher** — _RM567033_
-- **Guilherme Sena** — _RM568101_
-- **Igor Dantas** — _RM568337_
-
+| Nome | RM |
+|---|---|
+| Alan Christopher Gonzaga Miranda | RM567033 |
+| Guilherme Santos Sena | RM568101 |
+| Igor Dantas da Silva | RM568337 |
 ---
 
 _Projeto desenvolvido para o Challenge FIAP 2026._
