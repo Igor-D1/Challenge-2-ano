@@ -6,7 +6,7 @@ Challenge FIAP 2026 · 2º ano ADS (2TDSPA) · Empresa parceira: AMAZUL / CTMSP 
 
 | Nome | RM | Turma |
 | :--- | :--- | :--- |
-| **Alan Christopher Miranda** | 567033 | 2TDSPA |
+| **Alan Christopher Gonzaga Miranda** | 567033 | 2TDSPA |
 | **Guilherme Santos Sena** | 568101 | 2TDSPA |
 | **Igor Dantas da Silva** | 568337 | 2TDSPA |
 
